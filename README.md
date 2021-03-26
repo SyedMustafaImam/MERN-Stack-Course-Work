@@ -24,7 +24,7 @@ This course will start by teaching you the basics of Node.js and its core module
 ### Course Objective
 
 Upon successful completion of the course, the student will: 
-<ul></ul>
+<ul>
 <li> Understand the JavaScript and technical concepts behind Node JS </li>
 <li> Structure a Node application in modules </li>
 <li> Build a Web Server in Node and understand how it really works </li>
