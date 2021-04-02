@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <% include partials/head %> 
+</head>
+<body>
+<% include partials/menus %>
+<div class="container-fluid bg-3 text-center">    
+  <h3><%= page %></h3><br>
+  
+  
+  
+  <table class="table">
+    <thead class="thead-light">
+      <% product.forEach(product => {
+        
+      });
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Product Name</th>
+        <th scope="col">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row"><%product._id%></th>
+        <td><%product.name%></td>
+        <td><%product.price%></td>
+      </tr>
+         </tbody>
+  </table>
+
+</body>
+<%- include("partials/script")  %>
+</html>
